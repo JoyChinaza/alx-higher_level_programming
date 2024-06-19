@@ -1,12 +1,9 @@
-#include <include stdio.h>
+#!/usr/bin/node
 
 /*
- *  This is a multi-line comment
- *  It can span multiple lines
+ *  Creating a constant variable called myVar
+ *  Print the value of myVar using console.log
  **/
 
-let message;
-message = “JavaScript is amazing”; // assign a value
-console.log(message); // JavaScript is amazing
-
-
+const myVar = "JavaScript is amazing";
+console.log(myVar);
