@@ -1,9 +1,8 @@
 #!/usr/bin/node
-const numbers = [1, 2, 3, 12, 5, 12, 7, 12];
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] === 12) {
-    numbers[i] = 89;
-  }
-}
-console.log(numbers);
-
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
+myObject.value = 89;
+console.log(myObject);
