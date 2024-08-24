@@ -1,5 +1,5 @@
 #!/bin/bash
-python3 -c 'print("Hello, World!")'
+python3 <<< $PYCODE
 
 
 
